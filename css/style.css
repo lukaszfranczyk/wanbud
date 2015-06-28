@@ -1,0 +1,48 @@
+body{
+	background-color:#FFFFFF;
+	width: 1008px;
+	margin: 0 auto;
+}
+
+/*#bg1{
+	position: relative;
+	width: 100%;
+}*/
+
+#mainPage {
+	background: url('../img/wanTlo_960.png');
+	background-repeat: no-repeat;
+	width:100%;
+	position: relative;
+	min-height: 700px;
+}
+
+/*@media screen and (min-width: 640px) and (max-width: 959px){
+	#mainPage {
+	background: url('../img/wanTlo_960.png');
+	position: relative;
+	width:100%;
+	min-height: 700px;
+	/*#bg1{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 639px){
+	#mainPage {
+	background: url('../img/wanTlo_640.png');
+	width:100%;
+	min-height: 700px;
+	/*#bg1{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 319px){
+	#mainPage {
+	background: url('../img/wanTlo_320.png');
+	width:319px;
+	/*#bg1{
+		width: 319px;
+	}*/
+}
