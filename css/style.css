@@ -1,6 +1,6 @@
 body{
 	background-color:#FFFFFF;
-	width: 1008px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -10,11 +10,11 @@ body{
 }*/
 
 #mainPage {
-	background: url('../img/wanTlo_960.png');
+	background: url('../img/wanbud_tlo_960.png');
 	background-repeat: no-repeat;
 	width:100%;
 	position: relative;
-	min-height: 700px;
+	height: 456px;
 }
 
 /*@media screen and (min-width: 640px) and (max-width: 959px){
