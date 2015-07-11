@@ -137,6 +137,25 @@ body{
 	height: 656px;
 }
 
+#contact label{
+	display: block;
+	margin-bottom: 5px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-size: 17px;
+	color: #105176;
+}
+
+#contact textarea{
+	margin-top: 70px;
+	border: 2px solid #105176;
+}
+
+#contactLeft{
+	margin-left: 90px;
+	width: 380px;
+	float: left;
+}
+
 #stopka{
 	background-color:#000000;
 	width: 960px;
