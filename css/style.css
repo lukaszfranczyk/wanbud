@@ -1,7 +1,7 @@
 body{
 	background-color:#FFFFFF;
 	width: 960px;
-	margin: 0 auto;
+	margin: 0px auto;
 }
 
 /*#bg1{
@@ -16,6 +16,203 @@ body{
 	position: relative;
 	height: 456px;
 }
+
+#tresc{
+	float:clear;
+	display:block;
+	text-align:center;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-size:30px;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding-top: 20%;
+}
+
+#logo{
+	background: url('../img/LOGO1less50.png');
+	width: 295px;
+	height: 113px;
+	margin-left: 0px;
+	float: left;
+}
+
+#mOfirmie{
+	width: 115px;
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	margin-left: 230px;
+	margin-top: 45px;
+	color: #FFFFFF;
+}
+
+#mGallery{
+	width: 115px;
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	margin-top: 45px;
+	color: #FFFFFF;
+}
+
+#mKontakt{
+	width: 115px;
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	margin-right: 90px;
+	margin-top: 45px;
+	color: #FFFFFF;
+}
+
+#oFirmie{
+	background-color:#FFFFFF;   /*#eb1818*/
+	width: 960px;
+	margin: 0px auto;
+	height: 320px;
+}
+
+#gallery{
+	background-color:#FFFFFF;  /*30a4ee*/
+	width: 960px;
+	margin: 0px auto;
+	height: 600px;
+}
+
+#wnetrza{
+	font-size: 17px;
+	color:#105176;
+	float: left;
+	width: 390px;
+	margin-left: 90px;
+	margin-top: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#zewnetrza{
+	font-size: 17px;
+	color:#105176;
+	float: left;
+	width: 390px;
+	margin-right: 90px;
+	margin-top: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#gallery1{
+	width: 195px;
+	height: 170px;
+	margin-left: 90px;
+	float: left;
+	margin-top: 20px;
+	background: url('../img/wnetrza/1.jpg');
+}
+
+#gallery2{
+	width: 195px;
+	height: 170px;
+	float: left;
+	margin-top: 20px;
+	background: url('../img/wnetrza/3.jpg');
+}
+
+#gallery3{
+	width: 195px;
+	height: 170px;
+	float: left;
+	margin-top: 20px;
+	background: url('../img/zewnetrza/2.jpg');
+}
+
+#gallery4{
+	width: 195px;
+	height: 170px;
+	float: left;
+	margin-top: 20px;
+	background: url('../img/zewnetrza/5.jpg');
+}
+
+#gallery5{
+	width: 195px;
+	height: 170px;
+	float: left;
+	margin-left: 90px;
+	background: url('../img/wnetrza/4.jpg');
+}
+
+#gallery6{
+	width: 195px;
+	height: 170px;
+	float: left;
+	background: url('../img/wnetrza/8.jpg');
+}
+
+#gallery7{
+	width: 195px;
+	height: 170px;
+	float: left;
+	background: url('../img/zewnetrza/7.jpg');
+}
+
+#click{
+	width: 195px;
+	height: 170px;
+	float: left;
+	background: url('../img/click.jpg');
+}
+
+#oMnie{
+	background-color:#FFFFFF;       /*#09e375*/
+	width: 960px;
+	margin: 0px auto;
+	height: 320px;
+}
+
+#contact{
+	background-color:#fdf527;
+	width: 960px;
+	margin: 0px auto;
+	height: 656px;
+}
+
+#stopka{
+	background-color:#000000;
+	width: 960px;
+	margin: 0px auto;
+	height: 182px;
+}
+
+.title{
+	color:#105176 ;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-size:36px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.text{
+	color:#545454;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-size:17px;
+	text-align: center;
+	padding: 40px 90px 15px 90px;
+}
+
+
+/*.menu{
+	color: #FFFFFF;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-size:17px;
+	text-align: center;
+	float: left;
+}
+*/
+
 
 /*@media screen and (min-width: 640px) and (max-width: 959px){
 	#mainPage {

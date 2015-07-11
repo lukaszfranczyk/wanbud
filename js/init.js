@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
         i++;
         i%=tla.length;
         
-        document.body.style.background = tla[i];
+        document.mainPage.style.background.url() = tla[i];
     }, czas * 1000);
 }, false);
 
