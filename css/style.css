@@ -104,66 +104,23 @@ body{
 	text-align: center;
 }
 
-#gallery1{
-	width: 195px;
-	height: 170px;
-	margin-left: 90px;
-	float: left;
-	margin-top: 20px;
-	background: url('../img/wnetrza/1.jpg');
+#photoContainer {
+	width: 780px;
+	height: auto;
+	margin: auto;
 }
 
-#gallery2{
+.photo {
 	width: 195px;
 	height: 170px;
 	float: left;
-	margin-top: 20px;
-	background: url('../img/wnetrza/3.jpg');
-}
-
-#gallery3{
-	width: 195px;
-	height: 170px;
-	float: left;
-	margin-top: 20px;
-	background: url('../img/zewnetrza/2.jpg');
-}
-
-#gallery4{
-	width: 195px;
-	height: 170px;
-	float: left;
-	margin-top: 20px;
-	background: url('../img/zewnetrza/5.jpg');
-}
-
-#gallery5{
-	width: 195px;
-	height: 170px;
-	float: left;
-	margin-left: 90px;
-	background: url('../img/wnetrza/4.jpg');
-}
-
-#gallery6{
-	width: 195px;
-	height: 170px;
-	float: left;
-	background: url('../img/wnetrza/8.jpg');
-}
-
-#gallery7{
-	width: 195px;
-	height: 170px;
-	float: left;
-	background: url('../img/zewnetrza/7.jpg');
 }
 
 #click{
 	width: 195px;
 	height: 170px;
 	float: left;
-	background: url('../img/click.jpg');
+	text-align: center;
 }
 
 #oMnie{
