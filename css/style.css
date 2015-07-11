@@ -131,7 +131,7 @@ body{
 }
 
 #contact{
-	background-color:#fdf527;
+	background: url("../img/tloCon.jpg");
 	width: 960px;
 	margin: 0px auto;
 	height: 656px;
@@ -139,21 +139,57 @@ body{
 
 #contact label{
 	display: block;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 15px;
 	font-family:Open Sans Regular, Trebuchet, Verdana;
-	font-size: 17px;
-	color: #105176;
+	font-size: 12px;
+	color: #FFFFFF;
 }
 
 #contact textarea{
-	margin-top: 70px;
-	border: 2px solid #105176;
+	width: 360px;
+	height: 234px;
+	font: bold;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	color: #FFFFFF;
 }
 
 #contactLeft{
+	margin-top: 3%;
 	margin-left: 90px;
 	width: 380px;
 	float: left;
+}
+
+#contactRight{
+	margin-top: 3%;
+	margin-left: 30px;
+	margin-right: 65px;
+	width: 380px;
+	float: left;
+}
+
+.input{
+	color: #FFFFFF;
+	font: bold;
+	width: 360px;
+	height: 25px;
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	}
+
+#submit input{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 12px;
+	font: bold;
+	margin-left: 405px;
+	margin-top: 5%;
+	
+	text-align:center;
+	width: 150px;
+	height: 30px;
 }
 
 #stopka{
@@ -178,6 +214,33 @@ body{
 	text-align: center;
 	padding: 40px 90px 15px 90px;
 }
+
+.conText{
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.conText2{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	text-align: center;
+}
+
+.daneAdresowe{
+	margin-top: 80px;
+	font-size: 12px;
+	font-family:Open Sans Regular, Trebuchet, Verdana;
+	color: #FFFFFF;
+	text-align: center;
+	width: 320px;
+	float: left;
+}
+
+
 
 
 /*.menu{
