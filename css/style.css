@@ -10,8 +10,12 @@ body{
 }*/
 
 #mainPage {
-	background: url('../img/wanbud_tlo_960.png');
-	background-repeat: no-repeat;
+	//background: url('../img/tlo1.jpg');
+	//background: url('img/tlo2.jpg');
+	//background: url('../img/tlo3.jpg');
+	//background: url('../img/tlo4.jpg');
+	//background: url('../img/tlo5.jpg');
+	//background-repeat: no-repeat;
 	width:100%;
 	position: relative;
 	height: 456px;
@@ -131,7 +135,7 @@ body{
 }
 
 #contact{
-	background: url("../img/tloCon.jpg");
+	background: url("../img/tloKontakt.jpg");
 	width: 960px;
 	margin: 0px auto;
 	height: 656px;
