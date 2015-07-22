@@ -45,7 +45,7 @@ body{
 	font-size: 25px;
 	font-weight: bold;
 	color: #FFFFFF;
-	padding-top: 50px;
+	padding-top: 150px;
 	letter-spacing: 1px;
 }
 
@@ -55,6 +55,8 @@ body{
 	color: #ffffff;
 	border: 1px solid;
 	width: 250px;
+	margin: 30px auto;
+	padding: 10px;
 }
 
 
@@ -63,10 +65,9 @@ body{
 	display:block;
 	text-align:center;
 	font-size:15px;
-	font-weight:bold;
-	color: #105176;
-	padding-top: 20%;
-
+	color: #ffffff;
+	margin-top: 150px;
+	letter-spacing: 2px
 }
 
 #oFirmie{
