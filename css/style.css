@@ -74,7 +74,7 @@ body{
 	background-color:#FFFFFF;   /*#eb1818*/
 	width: 960px;
 	margin: 0px auto;
-	height: 400px;
+	height: 650px;
 }
 
 #kolumny{
@@ -186,10 +186,16 @@ body{
 .text{
 	color:#545454;
 	font-size:17px;
-	text-align: center;
+	text-align: justify;
 	padding: 40px 90px 15px 90px;
 }
 
+.text1{
+	color:#545454;
+	font-size:17px;
+	text-align: center;
+	padding: 40px 90px 15px 90px;
+}
 .conText{
 	color: #FFFFFF;
 	font-size: 13px;
