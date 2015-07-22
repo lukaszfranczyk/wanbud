@@ -6,10 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!--<script type="text/javascript" src="js/init.js"></script>-->
+	<script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+	<script type="text/javascript" src="js/init.js"></script>
 </head>
 <body>
-	<div id="main">
+	<div id="mainWrapper">
 		<div id="menu">
 			<div id="logo"></div>
 			<div class="text_menu" id="mKontakt">kontakt</div>
@@ -43,8 +45,8 @@
 				<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
 				<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
 				<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div id="click">
-					<span>Chcesz zobaczyć więcej ?<br/>Kliknij</span>
+				<div id="galleryMore">
+					<span>Chcesz&nbsp;zobaczyć&nbsp;więcej&nbsp;?<br/>kliknij</span>
 				</div>
 			</div>
 		</div>
@@ -80,6 +82,10 @@
 		</div>
 		<div id="stopka"></div>
 	</div>
-	
+	<div id="galleryWrapper">
+		<div id="galleryExit">
+			<span>Zamknij&nbsp;galerie&nbsp;&#215;</span>
+		</div>
+	</div>
 </body>
 </html>
