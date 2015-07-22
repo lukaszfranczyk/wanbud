@@ -1,12 +1,8 @@
-@font-face{
-	font-family: Open Sans Regular;
-	format (truetype);
-}
-
 body{
 	background-color:#FFFFFF;
 	width: 960px;
 	margin: 0px auto;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 }
 
 /*#bg1{
@@ -14,68 +10,48 @@ body{
 	width: 100%;
 }*/
 
+#menu {
+	float:left;
+	width:100%;
+	height: 87px;
+	background: #ffffff;
+}
+
+#menu .text_menu {
+	float: right;
+	color: #000000;
+	margin: 33px 20px 0 0;
+}
+
+#logo{
+	background: url('../img/logo_mini.png');
+	width: 220px;
+	height: 87px;
+	float: left;
+}
+
 #mainPage {
 	width:100%;
-	position: relative;
 	height: 456px;
+	background: url('../img/tlo5.jpg');
 }
+
 
 #tresc{
 	float:clear;
 	display:block;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:30px;
 	font-weight:bold;
 	color: #FFFFFF;
 	padding-top: 20%;
 }
 
-#logo{
-	background: url('../img/LOGO1less50.png');
-	width: 295px;
-	height: 113px;
-	margin-left: 0px;
-	float: left;
-}
-
-#mOfirmie{
-	width: 115px;
-	height: 30px;
-	float: left;
-	font-size: 17px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
-	margin-left: 230px;
-	margin-top: 45px;
-	color: #FFFFFF;
-}
-
-#mGallery{
-	width: 115px;
-	height: 30px;
-	float: left;
-	font-size: 17px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
-	margin-top: 45px;
-	color: #FFFFFF;
-}
-
-#mKontakt{
-	width: 115px;
-	height: 30px;
-	float: left;
-	font-size: 17px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
-	margin-right: 90px;
-	margin-top: 45px;
-	color: #FFFFFF;
-}
 
 #scroll{
 	float:clear;
 	display:block;
 	text-align:center;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:15px;
 	font-weight:bold;
 	color: #105176;
@@ -128,7 +104,6 @@ body{
 	display: block;
 	margin-bottom: 10px;
 	margin-top: 15px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -188,7 +163,6 @@ body{
 
 .title{
 	color:#105176 ;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:36px;
 	text-align: center;
 	padding-top: 80px;
@@ -196,7 +170,6 @@ body{
 
 .text{
 	color:#545454;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:17px;
 	text-align: center;
 	padding: 40px 90px 15px 90px;
@@ -205,7 +178,6 @@ body{
 .conText{
 	color: #FFFFFF;
 	font-size: 13px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	text-align: center;
 	padding-top: 80px;
 }
@@ -213,14 +185,12 @@ body{
 .conText2{
 	color: #FFFFFF;
 	font-size: 20px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	text-align: center;
 }
 
 .daneAdresowe{
 	margin-top: 80px;
 	font-size: 12px;
-	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	color: #FFFFFF;
 	text-align: center;
 	width: 320px;
