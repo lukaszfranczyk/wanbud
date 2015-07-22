@@ -1,3 +1,8 @@
+@font-face{
+	font-family: Open Sans Regular;
+	format (truetype);
+}
+
 body{
 	background-color:#FFFFFF;
 	width: 960px;
@@ -10,12 +15,6 @@ body{
 }*/
 
 #mainPage {
-	//background: url('../img/tlo1.jpg');
-	//background: url('img/tlo2.jpg');
-	//background: url('../img/tlo3.jpg');
-	//background: url('../img/tlo4.jpg');
-	//background: url('../img/tlo5.jpg');
-	//background-repeat: no-repeat;
 	width:100%;
 	position: relative;
 	height: 456px;
@@ -25,7 +24,7 @@ body{
 	float:clear;
 	display:block;
 	text-align:center;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:30px;
 	font-weight:bold;
 	color: #FFFFFF;
@@ -45,7 +44,7 @@ body{
 	height: 30px;
 	float: left;
 	font-size: 17px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	margin-left: 230px;
 	margin-top: 45px;
 	color: #FFFFFF;
@@ -56,7 +55,7 @@ body{
 	height: 30px;
 	float: left;
 	font-size: 17px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	margin-top: 45px;
 	color: #FFFFFF;
 }
@@ -66,10 +65,22 @@ body{
 	height: 30px;
 	float: left;
 	font-size: 17px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	margin-right: 90px;
 	margin-top: 45px;
 	color: #FFFFFF;
+}
+
+#scroll{
+	float:clear;
+	display:block;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
+	font-size:15px;
+	font-weight:bold;
+	color: #105176;
+	padding-top: 20%;
+
 }
 
 #oFirmie{
@@ -86,32 +97,11 @@ body{
 	height: 600px;
 }
 
-#wnetrza{
-	font-size: 17px;
-	color:#105176;
-	float: left;
-	width: 390px;
-	margin-left: 90px;
-	margin-top: 30px;
-	padding-top: 30px;
-	text-align: center;
-}
-
-#zewnetrza{
-	font-size: 17px;
-	color:#105176;
-	float: left;
-	width: 390px;
-	margin-right: 90px;
-	margin-top: 30px;
-	padding-top: 30px;
-	text-align: center;
-}
-
 #photoContainer {
 	width: 780px;
 	height: auto;
-	margin: auto;
+	margin-top: 30px !important;
+	margin: 0px auto;
 }
 
 .photo {
@@ -127,13 +117,6 @@ body{
 	text-align: center;
 }
 
-#oMnie{
-	background-color:#FFFFFF;       /*#09e375*/
-	width: 960px;
-	margin: 0px auto;
-	height: 320px;
-}
-
 #contact{
 	background: url("../img/tloKontakt.jpg");
 	width: 960px;
@@ -145,7 +128,7 @@ body{
 	display: block;
 	margin-bottom: 10px;
 	margin-top: 15px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -205,7 +188,7 @@ body{
 
 .title{
 	color:#105176 ;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:36px;
 	text-align: center;
 	padding-top: 80px;
@@ -213,7 +196,7 @@ body{
 
 .text{
 	color:#545454;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size:17px;
 	text-align: center;
 	padding: 40px 90px 15px 90px;
@@ -222,7 +205,7 @@ body{
 .conText{
 	color: #FFFFFF;
 	font-size: 13px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	text-align: center;
 	padding-top: 80px;
 }
@@ -230,14 +213,14 @@ body{
 .conText2{
 	color: #FFFFFF;
 	font-size: 20px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	text-align: center;
 }
 
 .daneAdresowe{
 	margin-top: 80px;
 	font-size: 12px;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	color: #FFFFFF;
 	text-align: center;
 	width: 320px;
