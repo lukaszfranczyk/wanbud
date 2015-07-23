@@ -122,15 +122,16 @@ body{
 
 #contact label{
 	display: block;
-	margin-bottom: 10px;
-	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	font-size: 12px;
+	font: bold;
 	color: #FFFFFF;
 }
 
 #contact textarea{
 	width: 360px;
-	height: 234px;
+	height: 222px;
 	font: bold;
 	border: 1px solid #FFFFFF;
 	background-color: transparent;
@@ -152,9 +153,15 @@ body{
 	float: left;
 }
 
+#contactRight textarea {
+	padding: 15px 15px;
+}
+
 .input{
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font: bold;
+	font-size: 12px;
 	width: 360px;
 	height: 25px;
 	background-color: transparent;
@@ -169,7 +176,7 @@ body{
 	font: bold;
 	margin-left: 405px;
 	margin-top: 5%;
-	
+	border-style: solid;
 	text-align:center;
 	width: 150px;
 	height: 30px;
@@ -234,8 +241,8 @@ body{
 	position: fixed;
 	top: 0;
 	display: none;
-	color: #105176;
 }
+
 
 #galleryExit {
 	text-align: center;
@@ -322,5 +329,4 @@ body{
 	/*#bg1{
 		width: 319px;
 	}*/
-}
 
