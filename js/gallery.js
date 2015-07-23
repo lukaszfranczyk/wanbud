@@ -2,11 +2,15 @@ var Gallery = Gallery || {};
 
 Gallery.run = function() {
 	$("#galleryMore").click(function() {
-		$("#galleryWrapper").show("slow");
+		$("#mainWrapper").fadeOut(200, function() {
+			$("#galleryWrapper").fadeIn(200);
+		});
 	});
 
 	$("#galleryExit").click(function() {
-		$("#galleryWrapper").hide("slow");
+		$("#galleryWrapper").fadeOut(200, function() {
+			$("#mainWrapper").fadeIn(200);
+		});
 	});
 }
 
