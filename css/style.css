@@ -181,7 +181,7 @@ body{
 	font: bold;
 	margin-left: 405px;
 	margin-top: 5%;
-	
+	border-style: solid;
 	text-align:center;
 	width: 150px;
 	height: 30px;
@@ -246,11 +246,8 @@ body{
 	position: fixed;
 	top: 0;
 	display: none;
-<<<<<<< HEAD
 }
-=======
-	color: #105176;
-}
+
 
 #galleryExit {
 	text-align: center;
@@ -337,6 +334,4 @@ body{
 	/*#bg1{
 		width: 319px;
 	}*/
-}
 
->>>>>>> 40a36603aca22a1a439ed1aba05364cb6a213625
