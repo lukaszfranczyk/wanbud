@@ -127,15 +127,16 @@ body{
 
 #contact label{
 	display: block;
-	margin-bottom: 10px;
-	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	font-size: 12px;
+	font: bold;
 	color: #FFFFFF;
 }
 
 #contact textarea{
 	width: 360px;
-	height: 234px;
+	height: 222px;
 	font: bold;
 	border: 1px solid #FFFFFF;
 	background-color: transparent;
@@ -157,9 +158,15 @@ body{
 	float: left;
 }
 
+#contactRight textarea {
+	padding: 15px 15px;
+}
+
 .input{
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font: bold;
+	font-size: 12px;
 	width: 360px;
 	height: 25px;
 	background-color: transparent;
@@ -238,44 +245,3 @@ body{
 	top: 0;
 	display: none;
 }
-
-/*.menu{
-	color: #FFFFFF;
-	font-family:Open Sans Regular, Trebuchet, Verdana;
-	font-size:17px;
-	text-align: center;
-	float: left;
-}
-*/
-
-
-/*@media screen and (min-width: 640px) and (max-width: 959px){
-	#mainPage {
-	background: url('../img/wanTlo_960.png');
-	position: relative;
-	width:100%;
-	min-height: 700px;
-	/*#bg1{
-		width: 100%;
-	}
-}
-
-@media screen and (min-width: 320px) and (max-width: 639px){
-	#mainPage {
-	background: url('../img/wanTlo_640.png');
-	width:100%;
-	min-height: 700px;
-	/*#bg1{
-		width: 100%;
-	}
-}
-
-@media screen and (max-width: 319px){
-	#mainPage {
-	background: url('../img/wanTlo_320.png');
-	width:319px;
-	/*#bg1{
-		width: 319px;
-	}*/
-}
-
