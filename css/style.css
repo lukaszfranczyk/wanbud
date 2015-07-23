@@ -1,15 +1,11 @@
 body{
 	background-color:#FFFFFF;
 	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
+	margin: 0;
 }
 
-/*#bg1{
-	position: relative;
-	width: 100%;
-}*/
-
 #mainWrapper {
-	width: 960px;
+	width: 1280px;
 	margin: 0px auto;
 }
 
@@ -22,7 +18,7 @@ body{
 #menu .text_menu {
 	float: right;
 	color: #000000;
-	margin: 33px 20px 0 0;
+	margin: 33px 40px 0 0;
 	text-transform: uppercase;
 	font-size: 14px;
 }
@@ -36,7 +32,7 @@ body{
 
 #mainPage {
 	width: 100%;
-	height: 456px;
+	height: 600px;
 	background: url('../img/tlo5.jpg');
 }
 
@@ -48,7 +44,7 @@ body{
 	font-size: 25px;
 	font-weight: bold;
 	color: #FFFFFF;
-	padding-top: 150px;
+	padding-top: 250px;
 	letter-spacing: 1px;
 }
 
@@ -75,7 +71,7 @@ body{
 
 #oFirmie{
 	background-color:#FFFFFF;   /*#eb1818*/
-	width: 960px;
+	width: 1260px;
 	margin: 0px auto;
 	height: 650px;
 }
@@ -86,16 +82,15 @@ body{
 
 #gallery{
 	background-color:#FFFFFF;  /*30a4ee*/
-	width: 960px;
-	margin: 0px auto;
-	height: 600px;
+	width: 965px;
+	margin: 0px auto 180px auto;
+	height: 700px;
 }
 
 #photoContainer {
-	width: 780px;
+	width: 1080px;
 	height: auto;
-	margin-top: 30px !important;
-	margin: 0px auto;
+	margin: 30px auto;
 }
 
 .photo {
@@ -197,7 +192,7 @@ body{
 .text{
 	color:#545454;
 	font-size:17px;
-	text-align: justify;
+	text-align: center;
 	padding: 40px 90px 15px 90px;
 }
 
