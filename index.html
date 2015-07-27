@@ -7,145 +7,151 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/vendor/scroll.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/init.js"></script>
 </head>
 <body>
 	<div id="mainWrapper">
-		<div id="menu">
+		<div id="menu-center">
 			<div id="logo"></div>
-			<div class="text_menu" id="mKontakt">kontakt</div>
-			<div class="text_menu" id="mGallery">galeria</div>
-			<div class="text_menu" id="mOfirmie">o&nbsp;firmie</div>
-		</div>
-		<div id="mainPage">
-			<div id="motto">
-				<span>Dokładność i profesjonalizm</span>
-			</div>
-			<div id="seeMore">
-				<span>zobacz&nbsp;nasze&nbsp;projekty</span>
-			</div>
-			<div id="scroll">
-				<span>scroll</span>
-				<span><br/>&#8744;</span>
-			</div>
-		</div>
-		<div id="oFirmie">
-			<div class="title">O FIRMIE</div>
-			<p class="text">Jesteśmy doświadczoną, profesjonalną i jednocześnie prężnie rozwijająca się firmą. Działamy na rynku od 2007 roku i przez ten czas udało nam się obsłużyć grono zadowolonych Klientów. Zajmujemy się przede wszystkim wykończeniami wnętrz oraz remontami w pełnym zakresie. Pracujemy na materiałach renomowanych i cenionych producentów, co pozwala na zachowanie najwyższych standardów wykonywanych przez nas usług remontowo-wykończeniowych. Wykonujemy kompleksowe wykończenia wnętrz oraz remonty. Szeroki katalog usług pozwala na wskazanie podstawowych punktów naszej działalności: malowanie ścian, malowanie natryskowe, malowanie agregatem, malowanie ręczne, tapetowanie, gładzie, szpachlowanie, układanie glazury układanie gresu, układanie płytek, kafelkowanie łazienek, kafelkowanie kuchni, adaptacja poddaszy, ocieplanie poddaszy wełną, zabudowy karton-gips, montaż drzwi i okien.
-			</p>
-			<p class="text">Zawsze służymy fachowym doradztwem oraz pomocą w zakresie doboru materiałów. Każdego Klienta traktujemy tak, jak sami chcielibyśmy być traktowani. Zapewniamy indywidualne podejście i możliwość owocnej współpracy.
-			</p>
-			<p class="text1">Zapraszamy do kontaktu!</p>
-		</div>
-		<div id="gallery">
-			<div class="title">GALERIA</div>
-			<div id="photoContainer">
-				<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div id="galleryMore">
-					<span>Chcesz&nbsp;zobaczyć&nbsp;więcej&nbsp;?<br/>kliknij</span>
-				</div>
-			</div>
-		</div>
-		<div id="contact">
-			<p class="conText">Chcesz podjąć współpracę lub masz jakieś pytania?</p>
-			<p class="conText2">SKONTAKTUJ SIĘ ZE MNĄ</p>
-			<form>
-				<div id="contactLeft">
-					<label>IMIĘ:</label>
-					<input name="Imie" class="input" placeholder="wpisz imię ..." >
-					<label>NAZWISKO:</label>
-					<input name="Nazwisko" class="input" placeholder="wpisz nazwisko ...">
-					<label>TELEFON:</label>
-					<input name="Telefon" class="input" placeholder="wpisz numer telefonu ...">
-					<label>EMAIL:</label>
-					<input name="Email" class="input" type="email" placeholder="wpisz adres email">					
-				</div>
-				<div id="contactRight">
-					<label>WIADOMOŚĆ</label>
-					<textarea name="message" placeholder="wpisz swoją wiadomość"></textarea>
-				</div>
-			</form>
-			<div id="submit">
-				<form>
-					<input id="submit" name="submit" type="submit" value="WYŚLIJ">
-				</form>
-			</div>
-			<div class="daneAdresowe">TELEFON: 514 875 098</div>
-			<div class="daneAdresowe">EMAIL: kontakt@wanbud.com.pl</div>
-			<div class="daneAdresowe">ADRES: ul. Oświęcimska 2 /6,   32-500 Chrzanów</div>
-		</div>
-		<div id="stopka"></div>
-	</div>
-	<div id="galleryWrapper">
-		<div id="galleryMenu">
-			<h2>Kategorie:</h2>
 			<ul>
-				<li>Domy</li>
-				<li>Budy dla psa</li>
-				<li>U wujka Arnolda</li>
-				<li>Burdele</li>
+				<li><a href="#contact">kontakt</a></li>
+				<li><a href="#gallery">galeria</a></li>
+				<li><a href="#company">o&nbsp;firmie</a></li>
+				<li><a href="#mainPage" class="active">start</a></li>
 			</ul>
-			<div id="galleryExit">
-				<span>Wyjdź&nbsp;z&nbsp;galerii&nbsp;&#215;</span>
-			</div>
 		</div>
-		<div id="PhotosPlaceholder">
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+		<div id="content">
+			<div id="mainPage">
+				<div id="motto">
+					<span>Dokładność i profesjonalizm</span>
+				</div>
+				<div id="seeMore">
+					<span><a href="#gallery">zobacz&nbsp;nasze&nbsp;projekty</a></span>
+				</div>
+				<div id="scroll">
+					<span>scroll</span>
+					<span><br/>&#8744;</span>
+				</div>
+			</div>
+			<div id="company">
+				<div class="title">O FIRMIE</div>
+				<p class="text">Jesteśmy doświadczoną, profesjonalną i jednocześnie prężnie rozwijająca się firmą. Działamy na rynku od 2007 roku i przez ten czas udało nam się obsłużyć grono zadowolonych Klientów. Zajmujemy się przede wszystkim wykończeniami wnętrz oraz remontami w pełnym zakresie. Pracujemy na materiałach renomowanych i cenionych producentów, co pozwala na zachowanie najwyższych standardów wykonywanych przez nas usług remontowo-wykończeniowych. Wykonujemy kompleksowe wykończenia wnętrz oraz remonty. Szeroki katalog usług pozwala na wskazanie podstawowych punktów naszej działalności: malowanie ścian, malowanie natryskowe, malowanie agregatem, malowanie ręczne, tapetowanie, gładzie, szpachlowanie, układanie glazury układanie gresu, układanie płytek, kafelkowanie łazienek, kafelkowanie kuchni, adaptacja poddaszy, ocieplanie poddaszy wełną, zabudowy karton-gips, montaż drzwi i okien.
+				</p>
+				<p class="text">Zawsze służymy fachowym doradztwem oraz pomocą w zakresie doboru materiałów. Każdego Klienta traktujemy tak, jak sami chcielibyśmy być traktowani. Zapewniamy indywidualne podejście i możliwość owocnej współpracy.
+				</p>
+				<p class="text1">Zapraszamy do kontaktu!</p>
+			</div>
+			<div id="gallery">
+				<div class="title">GALERIA</div>
+				<div id="photoContainer">
+					<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div id="galleryMore">
+						<span>Chcesz&nbsp;zobaczyć&nbsp;więcej&nbsp;?<br/>kliknij</span>
+					</div>
+				</div>
+			</div>
+			<div id="contact">
+				<p class="conText">Chcesz podjąć współpracę lub masz jakieś pytania?</p>
+				<p class="conText2">SKONTAKTUJ SIĘ ZE MNĄ</p>
+				<form>
+					<div id="contactLeft">
+						<label>IMIĘ:</label>
+						<input name="Imie" class="input" placeholder="wpisz imię ..." >
+						<label>NAZWISKO:</label>
+						<input name="Nazwisko" class="input" placeholder="wpisz nazwisko ...">
+						<label>TELEFON:</label>
+						<input name="Telefon" class="input" placeholder="wpisz numer telefonu ...">
+						<label>EMAIL:</label>
+						<input name="Email" class="input" type="email" placeholder="wpisz adres email">					
+					</div>
+					<div id="contactRight">
+						<label>WIADOMOŚĆ</label>
+						<textarea name="message" placeholder="wpisz swoją wiadomość"></textarea>
+					</div>
+				</form>
+				<div id="submit">
+					<form>
+						<input id="submit" name="submit" type="submit" value="WYŚLIJ">
+					</form>
+				</div>
+				<div class="daneAdresowe">TELEFON: 514 875 098</div>
+				<div class="daneAdresowe">EMAIL: kontakt@wanbud.com.pl</div>
+				<div class="daneAdresowe">ADRES: ul. Oświęcimska 2 /6,   32-500 Chrzanów</div>
+			</div>
+			<div id="stopka"></div>
+		</div>
+		<div id="galleryWrapper">
+			<div id="galleryMenu">
+				<h2>Kategorie:</h2>
+				<ul>
+					<li>Domy</li>
+					<li>Budy dla psa</li>
+					<li>U wujka Arnolda</li>
+					<li>Burdele</li>
+				</ul>
+				<div id="galleryExit">
+					<span>Wyjdź&nbsp;z&nbsp;galerii&nbsp;&#215;</span>
+				</div>
+			</div>
+			<div id="PhotosPlaceholder">
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
+					<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
+			</div>
 		</div>
 	</div>
 </body>
