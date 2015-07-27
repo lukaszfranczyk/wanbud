@@ -115,7 +115,7 @@ body{
 
 #contact{
 	background: url("../img/tloKontakt.jpg");
-	width: 960px;
+	width: 1280px;
 	margin: 0px auto;
 	height: 600px;
 }
@@ -125,23 +125,23 @@ body{
 	margin-bottom: 15px;
 	margin-top: 15px;
 	font-size: 12px;
-	font: bold;
+	font-weight:bold;
 	color: #FFFFFF;
 }
 
 #contact textarea{
-	width: 360px;
+	width: 400px;
 	height: 222px;
-	font: bold;
 	border: 1px solid #FFFFFF;
 	background-color: transparent;
 	color: #FFFFFF;
+	padding: 15px 15px;
 }
 
 #contactLeft{
 	margin-top: 3%;
-	margin-left: 90px;
-	width: 380px;
+	margin-left: 190px;
+	width: 450px;
 	float: left;
 }
 
@@ -149,20 +149,16 @@ body{
 	margin-top: 3%;
 	margin-left: 30px;
 	margin-right: 65px;
-	width: 380px;
+	width: 545px;
 	float: left;
 }
 
-#contactRight textarea {
-	padding: 15px 15px;
-}
 
 .input{
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
-	font: bold;
 	font-size: 12px;
-	width: 360px;
+	width: 400px;
 	height: 25px;
 	background-color: transparent;
 	border: 1px solid #FFFFFF;
@@ -173,8 +169,8 @@ body{
 	background-color: transparent;
 	color: #FFFFFF;
 	font-size: 12px;
-	font: bold;
-	margin-left: 405px;
+	font-weight: bold;
+	margin-left: 565px;
 	margin-top: 5%;
 	border-style: solid;
 	text-align:center;
@@ -200,15 +196,14 @@ body{
 	color:#545454;
 	font-size:17px;
 	text-align: center;
-	padding: 40px 90px 15px 90px;
 }
 
 .text1{
 	color:#545454;
 	font-size:17px;
 	text-align: center;
-	padding: 40px 90px 15px 90px;
 }
+
 .conText{
 	color: #FFFFFF;
 	font-size: 13px;
