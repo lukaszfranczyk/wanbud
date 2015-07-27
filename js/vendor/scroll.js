@@ -12,10 +12,14 @@ $(document).ready(function () {
         $(this).addClass('active');
       
         var target = this.hash,
-            menu = target;
+            menu = target,
+            offset = 0;
         $target = $(target);
+        if($target.attr('id') != 'mainPage') {
+            offset = $target.offset().top+2;
+        }
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
+            'scrollTop': offset
         }, 500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);

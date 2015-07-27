@@ -100,7 +100,7 @@ a {
 	background-color:#FFFFFF;   /*#eb1818*/
 	width: 1260px;
 	margin: 0px auto;
-	height: 650px;
+	height: 300px;
 }
 
 #kolumny{
@@ -110,7 +110,7 @@ a {
 #gallery{
 	background-color:#FFFFFF;  /*30a4ee*/
 	width: 965px;
-	margin: 0px auto 180px auto;
+	margin: 80px auto 80px auto;
 	height: 700px;
 }
 
