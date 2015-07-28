@@ -83,6 +83,7 @@ a {
 	width: 250px;
 	margin: 30px auto;
 	padding: 10px;
+	cursor: hand;
 }
 
 
@@ -138,6 +139,7 @@ a {
 #galleryMore span {
 	display: block;
 	margin-top: 75px;
+	cursor: hand;
 }
 
 #contact{
@@ -291,6 +293,7 @@ a {
 	list-style-type: none;
 	margin: 0;
 	width: 160px;
+	cursor: hand;
 }
 
 #galleryMenu ul li:hover {

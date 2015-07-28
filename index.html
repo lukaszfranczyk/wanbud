@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="dist/css/lightbox.css">
 	<script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/vendor/scroll.js"></script>
+	<script type="text/javascript" src="js/gallery_lib.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/init.js"></script>
 </head>
@@ -46,20 +48,6 @@
 			<div id="gallery">
 				<div class="title">GALERIA</div>
 				<div id="photoContainer">
-					<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-					<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-					<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-					<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-					<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-					<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-					<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-					<div class="photo"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-					<div class="photo"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-					<div class="photo"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-					<div class="photo"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-					<div class="photo"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-					<div class="photo"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-					<div class="photo"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
 					<div id="galleryMore">
 						<span>Chcesz&nbsp;zobaczyć&nbsp;więcej&nbsp;?<br/>kliknij</span>
 					</div>
@@ -100,59 +88,18 @@
 		<div id="galleryMenu">
 			<h2>Kategorie:</h2>
 			<ul>
-				<li>Domy</li>
-				<li>Budy dla psa</li>
-				<li>U wujka Arnolda</li>
-				<li>Burdele</li>
+				<li data-cat="houses">Domy</li>
+				<li data-cat="dogs">Budy dla psa</li>
+				<li data-cat="uncle">U wujka Arnolda</li>
+				<li data-cat="bitches">Burdele</li>
 			</ul>
 			<div id="galleryExit">
 				<span>Wyjdź&nbsp;z&nbsp;galerii&nbsp;&#215;</span>
 			</div>
 		</div>
 		<div id="PhotosPlaceholder">
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/1.jpg" alt="wnetrza1" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/2.jpg" alt="wnetrza2" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/3.jpg" alt="wnetrza3" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/4.jpg" alt="wnetrza4" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/5.jpg" alt="wnetrza5" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/wnetrza/8.jpg" alt="wnetrza6" /></div>
-				<div class="photo marginPhotoGallery"><img src="img/zewnetrza/7.jpg" alt="wnetrza7" /></div>
 		</div>
 	</div>
+	<script type="text/javascript" src="dist/js/lightbox.js"></script>
 </body>
 </html>
