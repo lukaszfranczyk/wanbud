@@ -33,7 +33,7 @@ function onScroll(event){
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         var menuHeight = 87;
-        var contactHeight = 1865;
+        var contactHeight = 1662;
         if (refElement.position().top <= scrollPos  && 
             refElement.position().top + refElement.height() > scrollPos) {
             $('#menu-center ul li a').removeClass("active");
