@@ -179,14 +179,14 @@ a {
 }
 
 #contactLeft{
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-left: 190px;
 	width: 450px;
 	float: left;
 }
 
 #contactRight{
-	margin-top: 3%;
+	margin-top: 2%;
 	margin-left: 30px;
 	margin-right: 65px;
 	width: 545px;
@@ -246,15 +246,18 @@ a {
 
 .conText{
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size: 13px;
 	text-align: center;
-	padding-top: 40px;
-}
+	padding-top: 20px;
+} 
 
 .conText2{
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	font-size: 20px;
 	text-align: center;
+	
 }
 
 .daneAdresowe{
