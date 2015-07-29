@@ -1,6 +1,5 @@
 body{
-	background-image: url('../img/mask_blue.png');
-	background-repeat: repeat;
+	background: #4da3d5;
 	font-family: 'Open Sans', sans-serif, Trebuchet, Verdana;
 	margin: 0;
 }
@@ -92,7 +91,7 @@ a {
 	width: 250px;
 	margin: 30px auto;
 	padding: 10px;
-	cursor: hand;
+	cursor: pointer;
 }
 
 
@@ -148,7 +147,7 @@ a {
 #galleryMore span {
 	display: block;
 	margin-top: 75px;
-	cursor: hand;
+	cursor: pointer;
 }
 
 #contact{
@@ -282,6 +281,7 @@ a {
 	text-align: center;
 	font-size: 15px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 #galleryMenu {
@@ -302,7 +302,7 @@ a {
 	list-style-type: none;
 	margin: 0;
 	width: 160px;
-	cursor: hand;
+	cursor: pointer;
 }
 
 #galleryMenu ul li:hover {
