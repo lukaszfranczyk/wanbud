@@ -50,5 +50,5 @@ Gallery.init = function() {
 	Gallery.run();
 	Gallery.prepareHTML(Gallery.basic, true);
 	Gallery.switchGallery();
-	Gallery.setGallery('houses');
+	Gallery.setGallery('gal2');
 }
