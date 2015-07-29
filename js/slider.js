@@ -5,7 +5,7 @@ Slider.photos = []
 Slider.run = function() {
 	var i = 1;
 	setInterval(function() {
-		var url = 'url(../img/slider/'+i+'.png)';
+		var url = 'url(img/slider/'+i+'.png)';
 		console.log(url);
 		$("#mainPage").animate({opacity: 0}, 'fast', function() {
 			$(this).css({'background': url}).animate({'opacity': 1});
