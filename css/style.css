@@ -48,6 +48,8 @@ a {
 
 #logo{
 	background: url('../img/logo_mini.png');
+	background-repeat: no-repeat;
+	margin: center;
 	width: 180px;
 	height: 71px;
 	float: left;
